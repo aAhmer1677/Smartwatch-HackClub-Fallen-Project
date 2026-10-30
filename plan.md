@@ -26,3 +26,5 @@ Week 1
   - Added `assets/` folder
   - Added to the plan and created a new file with annotations
   - Started creating `3D files`
+  - Aligned repo file structure with `README.md` file structure
+  - Repository Ready for data population
