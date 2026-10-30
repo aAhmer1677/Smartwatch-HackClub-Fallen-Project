@@ -1,4 +1,4 @@
-## Smartwatch // HackClub Fallen Project
+# Smartwatch // HackClub Fallen Project
 
 [![Hack Club Fallen](https://img.shields.io/badge/Hack%20Club-Fallen-FF4747?style=for-the-badge)](https://fallen.hackclub.com/)
 
@@ -14,7 +14,7 @@ This smartwatch could:
 
 I wanted to build a project so that other devs around the world can build upon this watch, including cool and interesting features that I couldn't have come up with myself.
 
-# Compilation & Development
+## Compilation & Development
 
 ### We will be using:
 - **ESP-IDF** - to compile and flash the firmware to the ESP32-S3
@@ -60,10 +60,9 @@ Smartwatch Project
 |   ├──
 |   ├──
 |   └──
-├── hardware/
-|   ├──
-|   ├──
-|   └──
+├── assets/
+|   ├── plan/
+|   └── README/
 ├── ui/
 |   ├──
 |   ├──
@@ -83,6 +82,7 @@ Smartwatch Project
 |   └── sdkconfig
 ├── .env.example
 ├── .gitignore
+├── BOM.csv
 ├── LICENSE
 ├── plan.md
 └── README.md
@@ -97,6 +97,6 @@ Smartwatch Project
 
 
 
-
+---
 
 Built by Abdullah Ahmer for **Hack Club Fallen**

@@ -1,4 +1,4 @@
-## The Smartwatch Project Plan
+# The Smartwatch Project Plan
 This file tracks the logistics of the project and a forecast on what is planned to be made.
 
 ## Bills of Materials (BOM)
@@ -7,8 +7,22 @@ This file tracks the logistics of the project and a forecast on what is planned 
 
 For more information, check [BOM.csv](BOM.csv)
 
-## 6 Week Plan
+## Smartwatch Plan
+### Watch Face
+The main watch face (or potentially the only one) is inspired by the Apple Watch Ultra 2 Modular Ultra Face.
+
+[<img src="assets/plan/Apple Watch Ultra Modular Ultra Face Annotated.jpeg" alt="Visual Annotation of Apple Watch Ultra 2 Modular Ultra Face" width="200">](/assets/plan/Apple%20Watch%20Ultra%20Modular%20Ultra%20Face%20Annotated.jpeg)
+
+## Progress Tracker
 Week 1
 **Objective: Establish repository structure, finalize electrical schematic and wire up basic UI scaffolding**
-- Day 1
-  - Created `README.md`. Established the initial `plan.md` and `BOM.csv`.
+- Session 1
+  - Created `README.md`. 
+  - Started filling in `plan.md`
+  - Created a new price tracking file `BOM.csv`.
+- Session 2
+  - Updated `README.md`
+  - Updated `plan.md`
+  - Added `assets/` folder
+  - Added to the plan and created a new file with annotations
+  - Started creating `3D files`
