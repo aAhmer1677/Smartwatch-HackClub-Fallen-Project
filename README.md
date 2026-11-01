@@ -63,6 +63,10 @@ Smartwatch Project
 ├── assets/
 |   ├── plan/
 |   └── README/
+├── PCB and Schematics/
+|   ├──
+|   ├──
+|   └──
 ├── ui/
 |   ├──
 |   ├──

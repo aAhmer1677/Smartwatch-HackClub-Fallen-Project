@@ -13,18 +13,12 @@ The main watch face (or potentially the only one) is inspired by the Apple Watch
 
 [<img src="assets/plan/Apple Watch Ultra Modular Ultra Face Annotated.jpeg" alt="Visual Annotation of Apple Watch Ultra 2 Modular Ultra Face" width="200">](/assets/plan/Apple%20Watch%20Ultra%20Modular%20Ultra%20Face%20Annotated.jpeg)
 
-## Progress Tracker
-Week 1
-**Objective: Establish repository structure, finalize electrical schematic and wire up basic UI scaffolding**
-- Session 1
-  - Created `README.md`. 
-  - Started filling in `plan.md`
-  - Created a new price tracking file `BOM.csv`.
-- Session 2
-  - Updated `README.md`
-  - Updated `plan.md`
-  - Added `assets/` folder
-  - Added to the plan and created a new file with annotations
-  - Started creating `3D files`
-  - Aligned repo file structure with `README.md` file structure
-  - Repository Ready for data population
+---
+
+### Custom Capabilities
+---
+**Secure Password Storage and Quick Recall Function**
+
+Using flash encryption and other security features on the ESP, I plan to store passwords onto the watch. This then means that I can have really long 256 digits long passwords, which I then just have to enter by connecting my watch to my computer and then selecting and verifying my identity (pin or equivalent) to then quickly type it in.
+
+---
