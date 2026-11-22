@@ -53,9 +53,10 @@ idf.py -p COM3 flash monitor
 Smartwatch Project
 ├── .github/
 ├── 3d-models/
-|   ├──
-|   ├──
-|   └──
+|   ├── Chasis/
+|   ├── Desings/
+|   ├── Strap/
+|   └── to print/
 ├── Android App/
 |   ├──
 |   ├──
@@ -97,7 +98,20 @@ Smartwatch Project
 [`plan.md`](plan.md)
 
 ## Images of final Product
-[to be added]
+### 3D Designs
+
+## To Print
+- ☐ Smartwatch chasis backplate
+- ☐ Smartwatch chasis body
+- ☐ Smartwatch strap long black + white mold
+- ☐ Smartwatch strap long black mold
+- ☐ Smartwatch strap short black + white mold
+- ☐ Smartwatch strap short black mold
+- ☐ Smartwatch strap short pin
+- ☑
+
+
+
 
 
 

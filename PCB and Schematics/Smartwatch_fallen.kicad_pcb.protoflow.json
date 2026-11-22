@@ -1,0 +1,1576 @@
+{
+  "schemaVersion": 1,
+  "setupState": {
+    "layerPreset": "fourLayer",
+    "layers": [
+      {
+        "name": "F.Cu",
+        "visible": true,
+        "routingEnabled": true
+      },
+      {
+        "name": "In1.Cu",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "In2.Cu",
+        "visible": true,
+        "routingEnabled": true
+      },
+      {
+        "name": "In3.Cu",
+        "visible": true,
+        "routingEnabled": true
+      },
+      {
+        "name": "In4.Cu",
+        "visible": true,
+        "routingEnabled": true
+      },
+      {
+        "name": "B.Cu",
+        "visible": true,
+        "routingEnabled": true
+      },
+      {
+        "name": "B.Adhes",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Adhes",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Paste",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Paste",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.SilkS",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.SilkS",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Mask",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Mask",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "Dwgs.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Cmts.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Eco1.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Eco2.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Edge.Cuts",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Margin",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.CrtYd",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.CrtYd",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Fab",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Fab",
+        "visible": true,
+        "routingEnabled": false
+      }
+    ],
+    "traceWidthPresets": [
+      {
+        "label": "0.10 mm",
+        "widthMm": 0.1
+      },
+      {
+        "label": "0.127 mm",
+        "widthMm": 0.127
+      },
+      {
+        "label": "0.15 mm",
+        "widthMm": 0.15
+      },
+      {
+        "label": "0.20 mm",
+        "widthMm": 0.2
+      },
+      {
+        "label": "0.25 mm",
+        "widthMm": 0.25
+      },
+      {
+        "label": "0.30 mm",
+        "widthMm": 0.3
+      },
+      {
+        "label": "0.40 mm",
+        "widthMm": 0.4
+      },
+      {
+        "label": "0.50 mm",
+        "widthMm": 0.5
+      },
+      {
+        "label": "0.80 mm",
+        "widthMm": 0.8
+      },
+      {
+        "label": "1.00 mm",
+        "widthMm": 1.0
+      }
+    ],
+    "viaPresets": [
+      {
+        "label": "0.45 / 0.20",
+        "diameterMm": 0.45,
+        "drillMm": 0.2
+      },
+      {
+        "label": "0.60 / 0.30",
+        "diameterMm": 0.6,
+        "drillMm": 0.3
+      },
+      {
+        "label": "0.80 / 0.40",
+        "diameterMm": 0.8,
+        "drillMm": 0.4
+      },
+      {
+        "label": "1.00 / 0.50",
+        "diameterMm": 1.0,
+        "drillMm": 0.5
+      }
+    ],
+    "activeLayerName": "F.Cu",
+    "activeTraceWidthMm": 0.25,
+    "activeViaPreset": {
+      "label": "0.60 / 0.30",
+      "diameterMm": 0.6,
+      "drillMm": 0.3
+    },
+    "defaultTextFontFace": "KiCad Font",
+    "snapToGrid": true,
+    "showGrid": true,
+    "gridSizeMm": 0.25,
+    "clearanceMm": 0.2,
+    "boardEdgeClearanceMm": 0.25
+  },
+  "stackup": {
+    "boardThicknessMm": 1.6,
+    "layers": [
+      {
+        "name": "F.Cu",
+        "type": "signal",
+        "thicknessMm": 0.035,
+        "role": "signal",
+        "routingEnabled": true
+      },
+      {
+        "name": "In1.Cu",
+        "type": "signal",
+        "thicknessMm": 0.035,
+        "role": "groundPlane",
+        "routingEnabled": false
+      },
+      {
+        "name": "In2.Cu",
+        "type": "signal",
+        "thicknessMm": 0.035,
+        "role": "signal",
+        "routingEnabled": true
+      },
+      {
+        "name": "In3.Cu",
+        "type": "signal",
+        "thicknessMm": 0.035,
+        "role": "signal",
+        "routingEnabled": true
+      },
+      {
+        "name": "In4.Cu",
+        "type": "signal",
+        "thicknessMm": 0.035,
+        "role": "signal",
+        "routingEnabled": true
+      },
+      {
+        "name": "B.Cu",
+        "type": "signal",
+        "thicknessMm": 0.035,
+        "role": "signal",
+        "routingEnabled": true
+      },
+      {
+        "name": "F.Adhes",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Adhes",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Paste",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Paste",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.SilkS",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.SilkS",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Mask",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Mask",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "Dwgs.User",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "Cmts.User",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "Edge.Cuts",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "Margin",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.CrtYd",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.CrtYd",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Fab",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Fab",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      }
+    ]
+  },
+  "boardConstraints": {
+    "minTraceWidthMm": 0.15,
+    "minClearanceMm": 0.2,
+    "minViaDiameterMm": 0.5,
+    "minViaDrillMm": 0.3,
+    "minAnnularMm": 0.1,
+    "minHoleMm": 0.3,
+    "holeToHoleMm": 0.25,
+    "holeClearanceMm": 0.2,
+    "ownFootprintHoleClearanceMm": 0.15,
+    "routingGroups": [],
+    "differentialPairs": []
+  },
+  "placementIntent": {
+    "source": "inferred",
+    "clusters": [
+      {
+        "id": "decoupling_U6_C14",
+        "kind": "decoupling",
+        "anchorFootprintId": "U6",
+        "memberFootprintIds": [
+          "C14"
+        ],
+        "maxDistanceMm": 5.0,
+        "strength": "critical",
+        "reason": "C14 is assigned to U6 as the +3V3/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U7_C13",
+        "kind": "decoupling",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "C13"
+        ],
+        "maxDistanceMm": 5.0,
+        "strength": "critical",
+        "reason": "C13 is assigned to U7 as the +3V3/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U5_C9",
+        "kind": "decoupling",
+        "anchorFootprintId": "U5",
+        "memberFootprintIds": [
+          "C9"
+        ],
+        "maxDistanceMm": 8.0,
+        "strength": "critical",
+        "reason": "C9 is assigned to U5 as the +3V3/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U1_C12",
+        "kind": "decoupling",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "C12"
+        ],
+        "maxDistanceMm": 8.0,
+        "strength": "critical",
+        "reason": "C12 is assigned to U1 as the +3V3/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U5_C10",
+        "kind": "decoupling",
+        "anchorFootprintId": "U5",
+        "memberFootprintIds": [
+          "C10"
+        ],
+        "maxDistanceMm": 8.0,
+        "strength": "critical",
+        "reason": "C10 is assigned to U5 as the +3V3/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U6_C15",
+        "kind": "decoupling",
+        "anchorFootprintId": "U6",
+        "memberFootprintIds": [
+          "C15"
+        ],
+        "maxDistanceMm": 5.0,
+        "strength": "critical",
+        "reason": "C15 is assigned to U6 as the +3V3/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U3_C1",
+        "kind": "decoupling",
+        "anchorFootprintId": "U3",
+        "memberFootprintIds": [
+          "C1"
+        ],
+        "maxDistanceMm": 8.0,
+        "strength": "critical",
+        "reason": "C1 is assigned to U3 as the VBUS/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U4_C6",
+        "kind": "decoupling",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "C6"
+        ],
+        "maxDistanceMm": 8.0,
+        "strength": "critical",
+        "reason": "C6 is assigned to U4 as the VBAT/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U7_C20",
+        "kind": "decoupling",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "C20"
+        ],
+        "maxDistanceMm": 5.0,
+        "strength": "critical",
+        "reason": "C20 is assigned to U7 as the 3V3_D/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U7_C17",
+        "kind": "decoupling",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "C17"
+        ],
+        "maxDistanceMm": 8.0,
+        "strength": "critical",
+        "reason": "C17 is assigned to U7 as the 3V3_D/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U7_C21",
+        "kind": "decoupling",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "C21"
+        ],
+        "maxDistanceMm": 5.0,
+        "strength": "critical",
+        "reason": "C21 is assigned to U7 as the 3V3_D/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U7_C22",
+        "kind": "decoupling",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "C22"
+        ],
+        "maxDistanceMm": 5.0,
+        "strength": "critical",
+        "reason": "C22 is assigned to U7 as the 3V3_D/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U7_C23",
+        "kind": "decoupling",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "C23"
+        ],
+        "maxDistanceMm": 5.0,
+        "strength": "critical",
+        "reason": "C23 is assigned to U7 as the 3V3_T/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U7_C18",
+        "kind": "decoupling",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "C18"
+        ],
+        "maxDistanceMm": 8.0,
+        "strength": "critical",
+        "reason": "C18 is assigned to U7 as the 3V3_T/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U7_C24",
+        "kind": "decoupling",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "C24"
+        ],
+        "maxDistanceMm": 5.0,
+        "strength": "critical",
+        "reason": "C24 is assigned to U7 as the 3V3_T/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U7_C25",
+        "kind": "decoupling",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "C25"
+        ],
+        "maxDistanceMm": 5.0,
+        "strength": "critical",
+        "reason": "C25 is assigned to U7 as the 3V3_P/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "decoupling_U7_C19",
+        "kind": "decoupling",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "C19"
+        ],
+        "maxDistanceMm": 8.0,
+        "strength": "critical",
+        "reason": "C19 is assigned to U7 as the 3V3_P/GND companion capacitor (global rail assignment)."
+      },
+      {
+        "id": "functional_U4_J4",
+        "kind": "connectorBank",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "J4"
+        ],
+        "maxDistanceMm": 12.0,
+        "strength": "strong",
+        "reason": "J4 supports U4 through local signal net(s) VSYS."
+      },
+      {
+        "id": "functional_U4_R6",
+        "kind": "userDefined",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "R6"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R6 supports U4 through local signal net(s) VSYS."
+      },
+      {
+        "id": "functional_U4_R7",
+        "kind": "userDefined",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "R7"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R7 supports U4 through local signal net(s) VSYS."
+      },
+      {
+        "id": "functional_U4_D2",
+        "kind": "connectorBank",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "D2"
+        ],
+        "maxDistanceMm": 12.0,
+        "strength": "strong",
+        "reason": "D2 supports U4 through local signal net(s) VSYS."
+      },
+      {
+        "id": "functional_U4_C5",
+        "kind": "userDefined",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "C5"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "C5 supports U4 through local signal net(s) VSYS."
+      },
+      {
+        "id": "functional_U4_C8",
+        "kind": "userDefined",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "C8"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "C8 supports U4 through local signal net(s) VSYS."
+      },
+      {
+        "id": "functional_U7_J6",
+        "kind": "connectorBank",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "J6"
+        ],
+        "maxDistanceMm": 12.0,
+        "strength": "strong",
+        "reason": "J6 supports U7 through local signal net(s) /TMDS_CLK+, /TMDS_D0-, /TMDS_D0+, /TMDS_D1-, /TMDS_D1+, /TMDS_D2-, /TMDS_D2+, /TMDS_CLK-."
+      },
+      {
+        "id": "functional_J6_R21",
+        "kind": "userDefined",
+        "anchorFootprintId": "J6",
+        "memberFootprintIds": [
+          "R21"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R21 supports J6 through local signal net(s) Net-(J6-SCL), HDMI_5V."
+      },
+      {
+        "id": "functional_J6_R20",
+        "kind": "userDefined",
+        "anchorFootprintId": "J6",
+        "memberFootprintIds": [
+          "R20"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R20 supports J6 through local signal net(s) Net-(J6-SDA), HDMI_5V."
+      },
+      {
+        "id": "functional_J6_R22",
+        "kind": "userDefined",
+        "anchorFootprintId": "J6",
+        "memberFootprintIds": [
+          "R22"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R22 supports J6 through local signal net(s) Net-(J6-HotPlugDetect)."
+      },
+      {
+        "id": "functional_J1_R1",
+        "kind": "userDefined",
+        "anchorFootprintId": "J1",
+        "memberFootprintIds": [
+          "R1"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R1 supports J1 through local signal net(s) Net-(J1-CC1)."
+      },
+      {
+        "id": "functional_U1_J1",
+        "kind": "connectorBank",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "J1"
+        ],
+        "maxDistanceMm": 12.0,
+        "strength": "strong",
+        "reason": "J1 supports U1 through local signal net(s) /USB_DN, /USB_DP."
+      },
+      {
+        "id": "functional_U1_U2",
+        "kind": "connectorBank",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "U2"
+        ],
+        "maxDistanceMm": 12.0,
+        "strength": "strong",
+        "reason": "U2 supports U1 through local signal net(s) /USB_DN, /USB_DP."
+      },
+      {
+        "id": "functional_J1_R2",
+        "kind": "userDefined",
+        "anchorFootprintId": "J1",
+        "memberFootprintIds": [
+          "R2"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R2 supports J1 through local signal net(s) Net-(J1-CC2)."
+      },
+      {
+        "id": "functional_J7_R30",
+        "kind": "userDefined",
+        "anchorFootprintId": "J7",
+        "memberFootprintIds": [
+          "R30"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R30 supports J7 through local signal net(s) USBC_CC1."
+      },
+      {
+        "id": "functional_J7_R31",
+        "kind": "userDefined",
+        "anchorFootprintId": "J7",
+        "memberFootprintIds": [
+          "R31"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R31 supports J7 through local signal net(s) USBC_CC2."
+      },
+      {
+        "id": "functional_J7_C40",
+        "kind": "userDefined",
+        "anchorFootprintId": "J7",
+        "memberFootprintIds": [
+          "C40"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "C40 supports J7 through local signal net(s) LCD_VBUS."
+      },
+      {
+        "id": "functional_U1_J5",
+        "kind": "connectorBank",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "J5"
+        ],
+        "maxDistanceMm": 12.0,
+        "strength": "strong",
+        "reason": "J5 supports U1 through local signal net(s) /ENC_A, /ENC_B, /ENC_SW."
+      },
+      {
+        "id": "functional_U1_R16",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "R16"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R16 supports U1 through local signal net(s) /ENC_A."
+      },
+      {
+        "id": "functional_U1_R17",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "R17"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R17 supports U1 through local signal net(s) /ENC_B."
+      },
+      {
+        "id": "functional_U3_J2",
+        "kind": "connectorBank",
+        "anchorFootprintId": "U3",
+        "memberFootprintIds": [
+          "J2"
+        ],
+        "maxDistanceMm": 12.0,
+        "strength": "strong",
+        "reason": "J2 supports U3 through local signal net(s) VWL."
+      },
+      {
+        "id": "functional_U3_C2",
+        "kind": "userDefined",
+        "anchorFootprintId": "U3",
+        "memberFootprintIds": [
+          "C2"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "C2 supports U3 through local signal net(s) VWL."
+      },
+      {
+        "id": "functional_U1_R12",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "R12"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R12 supports U1 through local signal net(s) /EN."
+      },
+      {
+        "id": "functional_U1_C11",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "C11"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "C11 supports U1 through local signal net(s) /EN."
+      },
+      {
+        "id": "functional_U1_SW2",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "SW2"
+        ],
+        "maxDistanceMm": 10.0,
+        "strength": "strong",
+        "reason": "SW2 supports U1 through local signal net(s) /EN."
+      },
+      {
+        "id": "functional_U1_R13",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "R13"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R13 supports U1 through local signal net(s) /BOOT."
+      },
+      {
+        "id": "functional_U1_SW1",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "SW1"
+        ],
+        "maxDistanceMm": 10.0,
+        "strength": "strong",
+        "reason": "SW1 supports U1 through local signal net(s) /BOOT."
+      },
+      {
+        "id": "functional_U1_R15",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "R15"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R15 supports U1 through local signal net(s) /I2C_SDA."
+      },
+      {
+        "id": "functional_U1_R14",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "R14"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R14 supports U1 through local signal net(s) /I2C_SCL."
+      },
+      {
+        "id": "functional_U1_R8",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "R8"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R8 supports U1 through local signal net(s) /BAT_SENS."
+      },
+      {
+        "id": "functional_U1_C7",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "C7"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "C7 supports U1 through local signal net(s) /BAT_SENS."
+      },
+      {
+        "id": "functional_U1_R9",
+        "kind": "userDefined",
+        "anchorFootprintId": "U1",
+        "memberFootprintIds": [
+          "R9"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R9 supports U1 through local signal net(s) /BAT_SENS."
+      },
+      {
+        "id": "functional_U4_R5",
+        "kind": "userDefined",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "R5"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R5 supports U4 through local signal net(s) Net-(U4-ISET)."
+      },
+      {
+        "id": "functional_U4_D1",
+        "kind": "connectorBank",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "D1"
+        ],
+        "maxDistanceMm": 12.0,
+        "strength": "strong",
+        "reason": "D1 supports U4 through local signal net(s) VMUX."
+      },
+      {
+        "id": "functional_U4_C3",
+        "kind": "userDefined",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "C3"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "C3 supports U4 through local signal net(s) VMUX."
+      },
+      {
+        "id": "functional_U4_C4",
+        "kind": "userDefined",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "C4"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "C4 supports U4 through local signal net(s) VMUX."
+      },
+      {
+        "id": "functional_U4_D3",
+        "kind": "userDefined",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "D3"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "D3 supports U4 through local signal net(s) Net-(D3-K)."
+      },
+      {
+        "id": "functional_U4_D4",
+        "kind": "userDefined",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "D4"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "D4 supports U4 through local signal net(s) Net-(D4-C)."
+      },
+      {
+        "id": "functional_U4_RT1",
+        "kind": "userDefined",
+        "anchorFootprintId": "U4",
+        "memberFootprintIds": [
+          "RT1"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "RT1 supports U4 through local signal net(s) Net-(U4-TS)."
+      },
+      {
+        "id": "functional_U5_L1",
+        "kind": "userDefined",
+        "anchorFootprintId": "U5",
+        "memberFootprintIds": [
+          "L1"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "L1 supports U5 through local signal net(s) Net-(U5-L1), Net-(U5-L2)."
+      },
+      {
+        "id": "functional_U5_R10",
+        "kind": "userDefined",
+        "anchorFootprintId": "U5",
+        "memberFootprintIds": [
+          "R10"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R10 supports U5 through local signal net(s) /FB."
+      },
+      {
+        "id": "functional_U5_R11",
+        "kind": "userDefined",
+        "anchorFootprintId": "U5",
+        "memberFootprintIds": [
+          "R11"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R11 supports U5 through local signal net(s) /FB."
+      },
+      {
+        "id": "functional_U3_R3",
+        "kind": "userDefined",
+        "anchorFootprintId": "U3",
+        "memberFootprintIds": [
+          "R3"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R3 supports U3 through local signal net(s) /pr."
+      },
+      {
+        "id": "functional_U3_R4",
+        "kind": "userDefined",
+        "anchorFootprintId": "U3",
+        "memberFootprintIds": [
+          "R4"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R4 supports U3 through local signal net(s) /pr."
+      },
+      {
+        "id": "functional_U7_R24",
+        "kind": "userDefined",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "R24"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R24 supports U7 through local signal net(s) Net-(U7-TFADJ)."
+      },
+      {
+        "id": "functional_U7_R23",
+        "kind": "userDefined",
+        "anchorFootprintId": "U7",
+        "memberFootprintIds": [
+          "R23"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R23 supports U7 through local signal net(s) Net-(U7-MSEN{slash}PO1)."
+      },
+      {
+        "id": "functional_U6_C16",
+        "kind": "userDefined",
+        "anchorFootprintId": "U6",
+        "memberFootprintIds": [
+          "C16"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "C16 supports U6 through local signal net(s) Net-(U6-REGOUT)."
+      },
+      {
+        "id": "functional_Q1_R18",
+        "kind": "userDefined",
+        "anchorFootprintId": "Q1",
+        "memberFootprintIds": [
+          "R18"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R18 supports Q1 through local signal net(s) /g."
+      },
+      {
+        "id": "functional_Q1_R19",
+        "kind": "userDefined",
+        "anchorFootprintId": "Q1",
+        "memberFootprintIds": [
+          "R19"
+        ],
+        "maxDistanceMm": 6.0,
+        "strength": "strong",
+        "reason": "R19 supports Q1 through local signal net(s) /g."
+      }
+    ],
+    "edgeAffinities": [
+      {
+        "footprintId": "J4",
+        "edge": "bottom",
+        "maxDistanceMm": 6.0,
+        "strength": "critical",
+        "facingOutward": true,
+        "centeredAlongEdge": false,
+        "reason": "J4 appears to be an edge-facing connector and should stay near the bottom edge."
+      },
+      {
+        "footprintId": "J6",
+        "edge": "right",
+        "maxDistanceMm": 4.0,
+        "strength": "critical",
+        "facingOutward": true,
+        "centeredAlongEdge": false,
+        "reason": "J6 appears to be an edge-facing connector and should stay near the right edge."
+      },
+      {
+        "footprintId": "J1",
+        "edge": "left",
+        "maxDistanceMm": 4.0,
+        "strength": "critical",
+        "facingOutward": true,
+        "centeredAlongEdge": false,
+        "reason": "J1 appears to be an edge-facing connector and should stay near the left edge."
+      },
+      {
+        "footprintId": "J7",
+        "edge": "top",
+        "maxDistanceMm": 6.0,
+        "strength": "critical",
+        "facingOutward": true,
+        "centeredAlongEdge": false,
+        "reason": "J7 appears to be an edge-facing connector and should stay near the top edge."
+      },
+      {
+        "footprintId": "J5",
+        "edge": "bottom",
+        "maxDistanceMm": 6.0,
+        "strength": "critical",
+        "facingOutward": true,
+        "centeredAlongEdge": false,
+        "reason": "J5 appears to be an edge-facing connector and should stay near the bottom edge."
+      },
+      {
+        "footprintId": "U2",
+        "edge": "left",
+        "maxDistanceMm": 6.0,
+        "strength": "critical",
+        "facingOutward": true,
+        "centeredAlongEdge": false,
+        "reason": "U2 appears to be an edge-facing connector and should stay near the left edge."
+      },
+      {
+        "footprintId": "J2",
+        "edge": "bottom",
+        "maxDistanceMm": 6.0,
+        "strength": "critical",
+        "facingOutward": true,
+        "centeredAlongEdge": false,
+        "reason": "J2 appears to be an edge-facing connector and should stay near the bottom edge."
+      },
+      {
+        "footprintId": "J8",
+        "edge": "top",
+        "maxDistanceMm": 6.0,
+        "strength": "critical",
+        "facingOutward": true,
+        "centeredAlongEdge": false,
+        "reason": "J8 appears to be an edge-facing connector and should stay near the top edge."
+      },
+      {
+        "footprintId": "J3",
+        "edge": "bottom",
+        "maxDistanceMm": 6.0,
+        "strength": "critical",
+        "facingOutward": true,
+        "centeredAlongEdge": false,
+        "reason": "J3 appears to be an edge-facing connector and should stay near the bottom edge."
+      },
+      {
+        "footprintId": "D2",
+        "edge": "bottom",
+        "maxDistanceMm": 6.0,
+        "strength": "critical",
+        "facingOutward": true,
+        "centeredAlongEdge": false,
+        "reason": "D2 appears to be an edge-facing connector and should stay near the bottom edge."
+      },
+      {
+        "footprintId": "D1",
+        "edge": "top",
+        "maxDistanceMm": 6.0,
+        "strength": "critical",
+        "facingOutward": true,
+        "centeredAlongEdge": false,
+        "reason": "D1 appears to be an edge-facing connector and should stay near the top edge."
+      }
+    ],
+    "regionHints": [],
+    "keepApart": [],
+    "linearGroups": [],
+    "netRules": [
+      {
+        "netName": "+3V3",
+        "optimizationWeight": 0.2,
+        "excludeFromWirelength": false,
+        "reason": "Local supply net keeps a small placement weight so the power path stays coherent without dominating signal nets."
+      },
+      {
+        "netName": "3V3_D",
+        "optimizationWeight": 0.2,
+        "excludeFromWirelength": false,
+        "reason": "Local supply net keeps a small placement weight so the power path stays coherent without dominating signal nets."
+      },
+      {
+        "netName": "3V3_P",
+        "optimizationWeight": 0.2,
+        "excludeFromWirelength": false,
+        "reason": "Local supply net keeps a small placement weight so the power path stays coherent without dominating signal nets."
+      },
+      {
+        "netName": "3V3_T",
+        "optimizationWeight": 0.2,
+        "excludeFromWirelength": false,
+        "reason": "Local supply net keeps a small placement weight so the power path stays coherent without dominating signal nets."
+      },
+      {
+        "netName": "GND",
+        "optimizationWeight": 0.0,
+        "excludeFromWirelength": true,
+        "reason": "Ground or high-fanout plane net is excluded so it does not collapse every block into one centroid."
+      },
+      {
+        "netName": "VBAT",
+        "optimizationWeight": 0.2,
+        "excludeFromWirelength": false,
+        "reason": "Local supply net keeps a small placement weight so the power path stays coherent without dominating signal nets."
+      },
+      {
+        "netName": "VBUS",
+        "optimizationWeight": 0.2,
+        "excludeFromWirelength": false,
+        "reason": "Local supply net keeps a small placement weight so the power path stays coherent without dominating signal nets."
+      },
+      {
+        "netName": "VCC",
+        "optimizationWeight": 0.2,
+        "excludeFromWirelength": false,
+        "reason": "Local supply net keeps a small placement weight so the power path stays coherent without dominating signal nets."
+      }
+    ],
+    "compactness": 1.0,
+    "notes": [
+      "Excluded 1 power or plane-style net(s) from wirelength optimization.",
+      "Grouped 66 likely decoupling relationship(s) so support capacitors stay near their ICs.",
+      "Pinned 11 connector-like footprint(s) near their current board edge."
+    ]
+  },
+  "autorouteSettings": {
+    "preset": "balancedTwoLayer",
+    "allowedLayers": [
+      "F.Cu",
+      "B.Cu"
+    ],
+    "planeNetNames": [
+      "GND",
+      "3V3"
+    ],
+    "routeUnroutedOnly": true,
+    "preserveManualCopper": true,
+    "allowVias": true,
+    "aggressiveRipup": false,
+    "stitchGroundReturns": true,
+    "repairPlanes": true,
+    "gridStepMm": 0.5,
+    "maxPasses": 3
+  },
+  "netClasses": [
+    {
+      "name": "Default",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.2,
+      "viaDiameterMm": 0.6,
+      "viaDrillMm": 0.3,
+      "netNames": [
+        "+3V3",
+        "/BAT_SENS",
+        "/BOOT",
+        "/EN",
+        "/ENC_A",
+        "/ENC_B",
+        "/ENC_SW",
+        "/FB",
+        "/HAPTIC_G",
+        "/I2C_SCL",
+        "/I2C_SDA",
+        "/IMU_INT",
+        "/LCD_B0",
+        "/LCD_B1",
+        "/LCD_B2",
+        "/LCD_B3",
+        "/LCD_B4",
+        "/LCD_DE",
+        "/LCD_G0",
+        "/LCD_G1",
+        "/LCD_G2",
+        "/LCD_G3",
+        "/LCD_G4",
+        "/LCD_G5",
+        "/LCD_HSYNC",
+        "/LCD_PCLK",
+        "/LCD_R0",
+        "/LCD_R1",
+        "/LCD_R2",
+        "/LCD_R3",
+        "/LCD_R4",
+        "/LCD_VSYNC",
+        "/MOTOR_N",
+        "/TMDS_CLK+",
+        "/TMDS_CLK-",
+        "/TMDS_D0+",
+        "/TMDS_D0-",
+        "/TMDS_D1+",
+        "/TMDS_D1-",
+        "/TMDS_D2+",
+        "/TMDS_D2-",
+        "/USB_DN",
+        "/USB_DP",
+        "/g",
+        "/pr",
+        "3V3_D",
+        "3V3_P",
+        "3V3_T",
+        "GND",
+        "Net-(D1-A)",
+        "Net-(D1-K)",
+        "Net-(D3-A)",
+        "Net-(D3-K)",
+        "Net-(D4-A)",
+        "Net-(D4-C)",
+        "Net-(IC1-GND_2)",
+        "Net-(IC1-GND_6)",
+        "Net-(IC1-GND_7)",
+        "Net-(IC1-IO1)",
+        "Net-(IC1-IO10)",
+        "Net-(IC1-IO11)",
+        "Net-(IC1-IO14)",
+        "Net-(IC1-IO16)",
+        "Net-(IC1-IO17)",
+        "Net-(IC1-IO19)",
+        "Net-(IC1-IO20)",
+        "Net-(IC1-IO21)",
+        "Net-(IC1-IO38)",
+        "Net-(IC1-IO6)",
+        "Net-(IC1-IO7)",
+        "Net-(IC1-IO8)",
+        "Net-(IC1-IO9)",
+        "Net-(J1-CC1)",
+        "Net-(J1-CC2)",
+        "Net-(J1-VCC)",
+        "Net-(J2-D+-PadA6)",
+        "Net-(J2-D--PadA7)",
+        "Net-(J6-HotPlugDetect)",
+        "Net-(J6-SCL)",
+        "Net-(J6-SDA)",
+        "Net-(U1-TS)",
+        "Net-(U3-SCL{slash}SCLK)",
+        "Net-(U3-SDA{slash}SDI)",
+        "Net-(U4-ISET)",
+        "Net-(U4-TS)",
+        "Net-(U5-EN)",
+        "Net-(U6-REGOUT)",
+        "Net-(U7-MSEN{slash}PO1)",
+        "Net-(U7-TFADJ)",
+        "VBUS",
+        "VMUX",
+        "VWL",
+        "unconnected-(H1-Pin_1-Pad1)",
+        "unconnected-(H2-Pin_1-Pad1)",
+        "unconnected-(H3-Pin_1-Pad1)",
+        "unconnected-(H4-Pin_1-Pad1)",
+        "unconnected-(H5-Pin_1-Pad1)",
+        "unconnected-(H6-Pin_1-Pad1)",
+        "unconnected-(H7-Pin_1-Pad1)",
+        "unconnected-(H8-Pin_1-Pad1)",
+        "unconnected-(H9-Pin_1-Pad1)",
+        "unconnected-(IC1-EN-Pad3)",
+        "unconnected-(IC1-GND_10-Pad48)",
+        "unconnected-(IC1-GND_11-Pad49)",
+        "unconnected-(IC1-GND_3-Pad41)",
+        "unconnected-(IC1-GND_4-Pad42)",
+        "unconnected-(IC1-GND_5-Pad43)",
+        "unconnected-(IC1-GND_8-Pad46)",
+        "unconnected-(IC1-GND_9-Pad47)",
+        "unconnected-(IC1-IO0-Pad27)",
+        "unconnected-(IC1-IO12-Pad20)",
+        "unconnected-(IC1-IO13-Pad21)",
+        "unconnected-(IC1-IO2-Pad38)",
+        "unconnected-(IC1-IO3-Pad15)",
+        "unconnected-(IC1-IO39-Pad32)",
+        "unconnected-(IC1-IO40-Pad33)",
+        "unconnected-(IC1-IO41-Pad34)",
+        "unconnected-(IC1-IO42-Pad35)",
+        "unconnected-(IC1-IO45-Pad26)",
+        "unconnected-(IC1-IO46-Pad16)",
+        "unconnected-(IC1-IO47-Pad24)",
+        "unconnected-(IC1-IO48-Pad25)",
+        "unconnected-(IC1-NC_1-Pad28)",
+        "unconnected-(IC1-NC_2-Pad29)",
+        "unconnected-(IC1-NC_3-Pad30)",
+        "unconnected-(IC1-RXD0-Pad36)",
+        "unconnected-(IC1-TXD0-Pad37)",
+        "unconnected-(J1-SBU1-PadA8)",
+        "unconnected-(J1-SBU2-PadB8)",
+        "unconnected-(J2-SBU1-PadA8)",
+        "unconnected-(J2-SBU2-PadB8)",
+        "unconnected-(J2-SHIELD-PadSH)",
+        "unconnected-(J6-CEC-Pad13)",
+        "unconnected-(J6-Reserved(N.C.)-Pad14)",
+        "unconnected-(U1-CHG-Pad9)",
+        "unconnected-(U1-IO47-Pad24)",
+        "unconnected-(U1-IO48-Pad25)",
+        "unconnected-(U1-NC-Pad28)",
+        "unconnected-(U1-NC-Pad29)",
+        "unconnected-(U1-NC-Pad30)",
+        "unconnected-(U1-PGOOD-Pad7)",
+        "unconnected-(U2-ST-Pad8)",
+        "unconnected-(U3-AUX_CL-Pad7)",
+        "unconnected-(U3-AUX_DA-Pad21)",
+        "unconnected-(U3-NC-Pad1)",
+        "unconnected-(U3-NC-Pad14)",
+        "unconnected-(U3-NC-Pad15)",
+        "unconnected-(U3-NC-Pad16)",
+        "unconnected-(U3-NC-Pad17)",
+        "unconnected-(U3-NC-Pad2)",
+        "unconnected-(U3-NC-Pad3)",
+        "unconnected-(U3-NC-Pad4)",
+        "unconnected-(U3-NC-Pad5)",
+        "unconnected-(U3-NC-Pad6)",
+        "unconnected-(U3-RESV-Pad19)",
+        "unconnected-(U3-ST-Pad8)",
+        "unconnected-(U4-ILIM-Pad12)",
+        "unconnected-(U4-TMR-Pad14)",
+        "unconnected-(U5-PG-Pad5)",
+        "unconnected-(U6-AUX_CL-Pad7)",
+        "unconnected-(U6-AUX_DA-Pad21)",
+        "unconnected-(U6-NC-Pad1)",
+        "unconnected-(U6-NC-Pad14)",
+        "unconnected-(U6-NC-Pad15)",
+        "unconnected-(U6-NC-Pad16)",
+        "unconnected-(U6-NC-Pad17)",
+        "unconnected-(U6-NC-Pad2)",
+        "unconnected-(U6-NC-Pad3)",
+        "unconnected-(U6-NC-Pad4)",
+        "unconnected-(U6-NC-Pad5)",
+        "unconnected-(U6-NC-Pad6)",
+        "unconnected-(U6-RESV-Pad19)",
+        "unconnected-(U7-EN-Pad8)",
+        "unconnected-(U7-NC-Pad49)",
+        "unconnected-(U7-VREF2-Pad7)"
+      ],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "Default_W0.40",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.4,
+      "viaDiameterMm": 0.6,
+      "viaDrillMm": 0.3,
+      "netNames": [],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "Default_W0.40_W0.30",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.3,
+      "viaDiameterMm": 0.6,
+      "viaDrillMm": 0.3,
+      "netNames": [
+        "VCC"
+      ],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "Default_W0.50",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.5,
+      "viaDiameterMm": 0.6,
+      "viaDrillMm": 0.3,
+      "netNames": [],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "Default_W0.50_W0.40",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.4,
+      "viaDiameterMm": 0.6,
+      "viaDrillMm": 0.3,
+      "netNames": [
+        "Net-(BT1-+)"
+      ],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "Default_W0.50_W0.40_W0.30",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.3,
+      "viaDiameterMm": 0.6,
+      "viaDrillMm": 0.3,
+      "netNames": [
+        "Net-(U5-L1)",
+        "Net-(U5-L2)"
+      ],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "Default_W0.50_W0.40_W0.30_W0.25",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.25,
+      "viaDiameterMm": 0.6,
+      "viaDrillMm": 0.3,
+      "netNames": [
+        "Net-(U5-VOUT)"
+      ],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "power",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.4,
+      "viaDiameterMm": 0.8,
+      "viaDrillMm": 0.4,
+      "netNames": [
+        "HDMI_5V",
+        "VBAT",
+        "VSYS"
+      ],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.25
+    }
+  ],
+  "deferredRawBlocks": [
+    "(covering\r\n\t\t\t(front no)\r\n\t\t\t(back no)\r\n\t\t)",
+    "(plugging\r\n\t\t\t(front no)\r\n\t\t\t(back no)\r\n\t\t)",
+    "(capping no)",
+    "(filling no)"
+  ],
+  "pageSetup": {
+    "paperSize": "Infinite",
+    "paperPortrait": false
+  }
+}
