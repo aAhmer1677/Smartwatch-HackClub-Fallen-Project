@@ -18,7 +18,7 @@ I wanted to build a project so that other devs around the world can build upon t
 
 ### We will be using:
 - **ESP-IDF** - to compile and flash the firmware to the ESP32-S3
-- **Android Studio** - to build and flash the Smartwatch App to our Android device *Samsung Galaxy A14 in my case*
+- **Android Studio** - to build and flash the Smartwatch App to our Android device *Samsung Galaxy A37 5G in my case*
 - **EEZ Studio** - to create and compile the UI in LVGL
 - **VS Code** - as the IDE for our overall project
 
@@ -68,20 +68,9 @@ Smartwatch Project
 |   ├──
 |   ├──
 |   └──
-├── ui/
-|   ├──
-|   ├──
-|   └──
 ├── firmware/
-|   ├── components
-|   |    ├── display_driver/
-|   |    └── lvgl/
-|   ├── main/
-|   |    ├── include/
-|   |    ├── CMakeLists.txt
-|   |    ├── main.c
-|   |    └── ui_app.c
-|   ├── include/
+|   ├── managed-components/
+|   ├── ui/
 |   ├── CMakeLists.txt
 |   ├── idf_component.yml
 |   └── sdkconfig

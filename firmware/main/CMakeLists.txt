@@ -1,0 +1,28 @@
+idf_component_register(
+    SRCS
+        "main.cpp"
+        "smartwatch.cpp"
+        "ble_uart.cpp"
+        "smartwatch_display.cpp"
+        "../ui/ui.c"
+        "../ui/screens.c"
+        "../ui/styles.c"
+        "../ui/images.c"
+        "../ui/eez-flow.cpp"
+        "../ui/ui_font_montserrat_black_32.c"
+        "../ui/ui_font_montserrat_black_48.c"
+        "../ui/ui_font_montserrat_black_64.c"
+        "../ui/ui_font_montserrat_extra_light_128.c"
+        "../ui/ui_font_montserrat_light_16.c"
+        "../ui/ui_font_montserrat_regular_20.c"
+        "../ui/ui_image_dynamic_island.c"
+    INCLUDE_DIRS "." "../ui"
+    REQUIRES
+        bt
+        nvs_flash
+        esp_driver_gpio
+        esp_driver_i2c
+        esp_adc
+        esp_lcd
+        lvgl__lvgl
+)

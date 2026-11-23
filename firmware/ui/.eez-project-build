@@ -1,0 +1,25 @@
+{
+  "files": [
+    "actions.h",
+    "eez-flow.cpp",
+    "eez-flow.h",
+    "fonts.h",
+    "images.c",
+    "images.h",
+    "screens.c",
+    "screens.h",
+    "structs.h",
+    "styles.c",
+    "styles.h",
+    "ui.c",
+    "ui.h",
+    "ui_font_montserrat_black_32.c",
+    "ui_font_montserrat_black_48.c",
+    "ui_font_montserrat_black_64.c",
+    "ui_font_montserrat_extra_light_128.c",
+    "ui_font_montserrat_light_16.c",
+    "ui_font_montserrat_regular_20.c",
+    "ui_image_dynamic_island.c",
+    "vars.h"
+  ]
+}
