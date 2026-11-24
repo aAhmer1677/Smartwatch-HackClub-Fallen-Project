@@ -9,7 +9,7 @@ Smartwatches have potential: You can strap them to your wrist and wear them ever
 
 This smartwatch could:
 - **Launch a private gateway:** you and your friends can then play in class.
-- **Allow WIFI Connection to Your Mobile:** useful for that day you forgot your phone (ps. calling with no additional sim card).
+- **Allow WIFI Connection to Your Mobile:** useful for that day you forgot your phone (basically calling with no additional sim card).
 - **and much more**
 
 I wanted to build a project so that other devs around the world can build upon this watch, including cool and interesting features that I couldn't have come up with myself.
@@ -58,16 +58,10 @@ Smartwatch Project
 |   ├── Strap/
 |   └── to print/
 ├── Android App/
-|   ├──
-|   ├──
-|   └──
 ├── assets/
 |   ├── plan/
 |   └── README/
 ├── PCB and Schematics/
-|   ├──
-|   ├──
-|   └──
 ├── firmware/
 |   ├── managed-components/
 |   ├── ui/
@@ -86,8 +80,13 @@ Smartwatch Project
 ## The Project Plan
 [`plan.md`](plan.md)
 
-## Images of final Product
+## Images of Product
 ### 3D Designs
+<img src="assets/README/PCB 3D View.png" alt="PCB CAD 3D Model" width="100">
+<img src="assets/README/Chassis Assembled.png" alt="Chassis 3D Model" width="100">
+<img src="assets/README/Strap Assembled.png" alt="Strap 3D Model" width="100">
+<img src="assets/README/Strap Long Assembled.png" alt="Long Strap 3D Model" width="100">
+<img src="assets/README/Strap Short Assembled.png" alt="Short Strap 3D Model" width="100">
 
 ## To Print
 - ☐ Smartwatch chasis backplate
